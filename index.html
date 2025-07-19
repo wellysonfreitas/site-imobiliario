@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Wellyson Freitas | Consultor Imobiliário</title>
+  <!-- SEO -->
+  <meta name="description"
+        content="Especialista em Minha Casa Minha Vida e Morar Bem Pernambuco. Encontre imóveis populares em Recife com atendimento personalizado." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Ícone / Fonte -->
+  <link rel="icon" href="assets/icons/home.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet" />
+  <link rel="shortcut icon" href="assets/img/minha-logo2-Sfundo.svg" type="image/x-icon">
+  <!-- Font Awesome para os ícones -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- ========= HEADER ========= -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo"><img src="assets/img/minha-logo2-Sfundo.svg" alt=""></a>
+      <!-- <h1 class="visually-hidden">Wellyson Freitas - Consultor Imobiliário</h1> -->
+
+
+      </button>
+      <nav class="nav" id="nav">
+        <button class="nav__close" aria-label="Fechar menu">
+        <i class="fas fa-times"></i>
+        </button>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#catalogo">Imóveis</a></li>
+          <li><a href="#faq">FAQ</a></li>
+         <!-- <li><a href="#depoimentos">Depoimentos</a></li> -->
+          <li><a href="#contato" class="btn btn--outline">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Menu Hamburguer Mobile -->
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" data-target="#nav">
+        <img src="assets/icons/menu.svg" alt="">
+      </button>
+
+    </div>
+  </header>
+
+  <!-- ========= HERO ========= -->
+  <section class="hero">
+     <picture>
+      <!-- WebP responsivo -->
+      <source
+        srcset="
+          assets/img/Boa-Viagem-Recife.webp,
+          assets/img/Boa-Viagem-Recife.webp"
+        type="image/webp">
+      <!-- JPEG fallback -->
+      <source
+        srcset="
+          assets/img/Boa-Viagem-Recife.webp,
+          assets/img/Boa-Viagem-Recife.webp"
+        type="image/jpeg">
+      <!-- Fallback final -->
+      <img src="assets/img/Boa-Viagem-Recife.webp"
+           alt="Vista aérea da Praia de Boa Viagem, Recife"
+           loading="eager">
+    </picture>
+
+    <div class="hero__overlay">
+      <h1>Seu Lar em Pernambuco<br>
+          <small>Mais perto do que você imagina</small></h1>
+      <a href="#catalogo" class="btn btn--primary">Encontre seu Imóvel Ideal</a>
+    </div>
+  </section>
+
+  <!-- ========= SOBRE ========= -->
+  <section id="sobre" class="sobre container">
+    <div class="sobre__foto">
+      <img src="assets/img/perfil2.jpg"
+           alt="Foto do Consultor Imobiliário"
+           loading="lazy">
+    </div>
+
+    <div class="sobre__texto">
+      <h2>Olá, eu sou <mark>Wellyson Freitas</mark></h2>
+      <br>
+      <p>Consultor do <strong>Hub Nogueira</strong> especializado em financiamentos <strong>Minha Casa Minha Vida</strong> e
+         <strong>Morar Bem Pernambuco</strong>, ajudando famílias a conquistar o sonho da casa própria com segurança e agilidade.</p>
+        <br>
+      <ul class="valores">
+        <li>✔ Transparência e ética</li>
+        <li>✔ Atendimento personalizado do início à entrega das chaves</li>
+        <li>✔ Suporte completo na aprovação do crédito</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ========= CATÁLOGO ========= -->
+  <section id="catalogo" class="catalogo">
+  <div class="container">
+    <h2>Imóveis em destaque</h2>
+
+    <div class="swiper">
+      <div class="swiper-wrapper" id="catalogo-swiper">
+        <!-- JS vai injetar aqui os <div class="swiper-slide">...</div> -->
+      </div>
+
+      <!-- Botões de navegação -->
+      <button class="swiper-btn swiper-btn--prev" aria-label="Anterior">‹</button>
+      <button class="swiper-btn swiper-btn--next" aria-label="Próximo">›</button>
+    </div>
+  </div>
+</section>
+
+<section class="section-ajuda">
+  <div class="container-ajuda">
+    <h2>Não encontrou o imóvel ideal?</h2>
+    <p>Fala comigo no WhatsApp que eu te ajudo a encontrar o que você está procurando — na região que você deseja e dentro do seu orçamento.</p>
+    <a href="https://wa.me/5581981509195" class="btn btn--ajuda" target="_blank" rel="noopener">
+      <img src="assets/icons/whatsapp.svg" alt="WhatsApp"> Falar com Wellyson
+    </a>
+  </div>
+</section>
+
+  <!-- ========= FAQ ========= -->
+  <section id="faq" class="faq container">
+    <h2>Perguntas Frequentes</h2>
+
+    <div class="accordion">
+      <button class="accordion__header">
+        Como funciona o financiamento pelo Minha Casa Minha Vida?
+      </button>
+      <div class="accordion__panel">
+        <p>O programa subsidia parte do valor do imóvel, possui taxas de juros reduzidas
+           e permite entrada com FGTS. Vamos simular juntos!</p>
+      </div>
+
+      <button class="accordion__header">
+        Posso usar meu FGTS como entrada?
+      </button>
+      <div class="accordion__panel"><p>Sim, e isso diminui bastante o valor financiado.</p></div>
+
+      <button class="accordion__header">
+        Quais documentos preciso para financiar um imóvel?
+    </button>
+    <div class="accordion__panel">
+      <p>Você vai precisar de RG, CPF, comprovante de residência, comprovante de renda, extrato do FGTS e certidão de estado civil. Se houver co-compradores, os documentos deles também serão exigidos.</p>
+    </div>
+
+    <button class="accordion__header">
+      Quem pode participar do Minha Casa Minha Vida?
+    </button>
+    <div class="accordion__panel">
+      <p>Famílias com renda bruta mensal de até R$ 12 mil. O valor do subsídio e as condições de financiamento variam conforme a faixa de renda.</p>
+    </div>
+
+    <button class="accordion__header">
+      Como funciona o programa Morar Bem Pernambuco?
+    </button>
+    <div class="accordion__panel">
+      <p>O Morar Bem PE é um programa do Governo de Pernambuco que oferece até <strong>R$ 20 mil de subsídio estadual</strong> para ajudar na entrada do seu imóvel, em complemento ao Minha Casa Minha Vida. Ele é voltado para <strong>famílias com renda familiar máxima de até dois salários mínimos</strong> que ainda não tenham imóvel próprio. Com ele, é possível reduzir o valor financiado e facilitar a conquista da casa própria.</p>
+    </div>
+    <button class="accordion__header">
+      Posso usar o Morar Bem Pernambuco junto com o Minha Casa Minha Vida?
+    </button>
+    <div class="accordion__panel">
+      <p>Sim! O Morar Bem PE pode ser utilizado em conjunto com o Minha Casa Minha Vida. Enquanto o programa federal oferece subsídios e condições facilitadas de financiamento, o Morar Bem PE complementa a entrada com até <strong>R$ 20 mil de subsídio estadual</strong>. Isso reduz o valor total financiado e aumenta suas chances de aprovação. É uma excelente combinação para quem quer sair do aluguel com mais facilidade.</p>
+    </div>
+
+    <button class="accordion__header">
+      Como funciona o subsídio de até R$ 55 mil?
+    </button>
+    <div class="accordion__panel">
+      <p>É um valor que o governo oferece como ajuda para reduzir o valor financiado. Ele não precisa ser devolvido e é calculado com base na sua renda, localização do imóvel e composição familiar.</p>
+    </div>
+
+    <button class="accordion__header">
+      O financiamento pode ser feito no nome de duas pessoas?
+    </button>
+    <div class="accordion__panel">
+      <p>Sim! É possível financiar em conjunto com cônjuge, namorado(a), amigo ou familiar — desde que ambos atendam aos critérios do programa e não tenham imóvel próprio.</p>
+    </div>
+
+    <button class="accordion__header">
+      Posso comprar um imóvel mesmo com o nome sujo?
+    </button>
+    <div class="accordion__panel">
+      <p>Infelizmente não. Para ter o financiamento aprovado, o CPF precisa estar regularizado. Mas posso te orientar a resolver essa situação e se preparar para financiar em breve.</p>
+    </div>
+
+    <button class="accordion__header">
+      Quanto tempo leva para o financiamento ser aprovado?
+    </button>
+    <div class="accordion__panel">
+      <p>Com o suporte da nossa equipe de CCA (Correspondente Caixa Aqui), conseguimos agilizar a aprovação do financiamento. Em até 24 horas você já pode receber uma resposta preliminar sobre seu crédito, desde que a documentação esteja completa. Esse é um dos nossos diferenciais para garantir mais rapidez e tranquilidade no processo!</p>
+    </div>
+
+      <!-- Adicione outras perguntas aqui -->
+    </div>
+  </section>
+
+  <!-- ========= DEPOIMENTOS ========= -->
+   <!-- <section id="depoimentos" class="depoimentos">
+    <h2>Histórias de sucesso</h2>
+
+    <div class="swiper depoimentos-swiper">
+      <div class="swiper-wrapper">
+        <!-- Depoimentos dinamizados se desejar -->
+      
+     <!-- </div>
+    </div>
+  </section> -->
+
+  <!-- ========= CONTATO ========= -->
+  <section id="contato" class="contato container">
+    <h2>Fale comigo</h2>
+
+    <address class="contato__info">
+      <a href="tel:+5581999999999">☎ (81) 9 8150-9195</a>
+      <a href="mailto:contato@morarbempe.com.br">✉ wellysonfreitasimoveis@gmail.com</a>
+      <a class="btn btn--whatsapp"
+         href="https://wa.me/5581981509195"
+         target="_blank" rel="noopener">
+        <img src="assets/icons/whatsapp.svg" alt=""> WhatsApp
+      </a>
+      <p>Rua Antônio Lumack do Monte, 96 - Boa Viagem</p>
+      <p>Recife - PE, 51020-350</p>
+    </address>
+
+    <!-- <form id="form-lead" class="contato__form" autocomplete="on">
+      <label>Nome Completo<input required name="nome" type="text" /></label>
+      <label>Telefone<input required name="telefone" type="tel" /></label>
+      <label>E-mail<input required name="email" type="email" /></label>
+      <label>Mensagem<textarea name="mensagem" rows="4"
+        placeholder="Escreva aqui sua dúvida…"></textarea></label>
+      <button class="btn btn--primary" type="submit">Enviar</button>
+
+      <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5501/obrigado.html"
+    </form>
+    <p id="form-msg" role="alert" hidden>Obrigado! Retornarei em breve.</p> -->
+    
+  </section>
+
+  <!-- ========= FOOTER ========= -->
+  <footer class="footer">
+    <div class="container">
+    <!-- <p>CRECI: 00000PJ</p> -->
+
+    <div class="redes-sociais">
+  <a href="https://www.facebook.com/welysom.freitas/" target="_blank" aria-label="Facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/wellysonfreitasimoveis/" target="_blank" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://wa.me/5581981509195" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+  </div>
+    <small>&copy; 2025 – Wellyson Freitas. Todos os direitos reservados.</small>
+  </footer>
+
+  <!-- ========= SCRIPTS ========= -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
+
+
+
