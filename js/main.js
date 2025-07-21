@@ -139,7 +139,7 @@ const imoveis = [
     local: 'Fragoso, PE',
     quartos: 2,
     descricao: 'Pub, Varanda gourmet, Garden e muito mais',
-    valor: 'Renda a partir de R$ 3.500',
+    valor: 'Renda a partir de R$ 2.700',
     foto: 'assets/img/VivaOlinda.jpg',
     whatsapp: '5581999999999',
     programas: ['Minha Casa Minha Vida'],
