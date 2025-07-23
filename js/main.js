@@ -40,7 +40,7 @@ const imoveis = [
     local: 'Várzea, PE',
     quartos: 2,
     descricao: 'Piscina, Elevador, Varanda',
-    valor: 'Renda a partir de R$ 3.500',
+    valor: 'Renda a partir de R$ 2.500',
     foto: 'assets/img/capibaribe-prime.jpg',
     whatsapp: '5581999999999',
     programas: ['Minha Casa Minha Vida'],
